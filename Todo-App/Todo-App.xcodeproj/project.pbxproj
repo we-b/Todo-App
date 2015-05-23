@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3239E8DB1B0ECF2900E109EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239E8DA1B0ECF2900E109EA /* AppDelegate.swift */; };
-		3239E8DD1B0ECF2900E109EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239E8DC1B0ECF2900E109EA /* ViewController.swift */; };
 		3239E8E01B0ECF2900E109EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3239E8DE1B0ECF2900E109EA /* Main.storyboard */; };
 		3239E8E21B0ECF2900E109EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3239E8E11B0ECF2900E109EA /* Images.xcassets */; };
 		3239E8E51B0ECF2900E109EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3239E8E31B0ECF2900E109EA /* LaunchScreen.xib */; };
@@ -29,7 +28,6 @@
 		3239E8D51B0ECF2900E109EA /* Todo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3239E8D91B0ECF2900E109EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3239E8DA1B0ECF2900E109EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3239E8DC1B0ECF2900E109EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3239E8DF1B0ECF2900E109EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3239E8E11B0ECF2900E109EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3239E8E41B0ECF2900E109EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				3239E8DA1B0ECF2900E109EA /* AppDelegate.swift */,
-				3239E8DC1B0ECF2900E109EA /* ViewController.swift */,
 				3239E8DE1B0ECF2900E109EA /* Main.storyboard */,
 				3239E8E11B0ECF2900E109EA /* Images.xcassets */,
 				3239E8E31B0ECF2900E109EA /* LaunchScreen.xib */,
@@ -212,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3239E8DD1B0ECF2900E109EA /* ViewController.swift in Sources */,
 				3239E8DB1B0ECF2900E109EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +405,7 @@
 				3239E8F61B0ECF2900E109EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3239E8F71B0ECF2900E109EA /* Build configuration list for PBXNativeTarget "Todo-AppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +414,7 @@
 				3239E8F91B0ECF2900E109EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
