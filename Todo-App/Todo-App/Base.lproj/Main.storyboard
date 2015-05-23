@@ -7,7 +7,7 @@
         <!--Todo一覧-->
         <scene sceneID="OtC-VN-2u2">
             <objects>
-                <tableViewController id="aEz-me-i1D" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="TodoListTableViewController" id="aEz-me-i1D" customClass="TodoListTableViewController" customModule="Todo_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="MZl-T4-SjQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="efM-tM-VSu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1034.5" y="379.5"/>
+            <point key="canvasLocation" x="1077.5" y="355.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pwf-KO-qUP">
@@ -49,7 +49,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bSL-oB-1Qt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="567" y="380"/>
+            <point key="canvasLocation" x="558.5" y="355.5"/>
         </scene>
     </scenes>
 </document>

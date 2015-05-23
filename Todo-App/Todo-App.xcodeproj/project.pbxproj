@@ -12,6 +12,7 @@
 		3239E8E21B0ECF2900E109EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3239E8E11B0ECF2900E109EA /* Images.xcassets */; };
 		3239E8E51B0ECF2900E109EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3239E8E31B0ECF2900E109EA /* LaunchScreen.xib */; };
 		3239E8F11B0ECF2900E109EA /* Todo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239E8F01B0ECF2900E109EA /* Todo_AppTests.swift */; };
+		3239E9291B107D6900E109EA /* TodoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3239E9281B107D6900E109EA /* TodoListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		3239E8EA1B0ECF2900E109EA /* Todo-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3239E8EF1B0ECF2900E109EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3239E8F01B0ECF2900E109EA /* Todo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_AppTests.swift; sourceTree = "<group>"; };
+		3239E9281B107D6900E109EA /* TodoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				3239E8E11B0ECF2900E109EA /* Images.xcassets */,
 				3239E8E31B0ECF2900E109EA /* LaunchScreen.xib */,
 				3239E8D81B0ECF2900E109EA /* Supporting Files */,
+				3239E9281B107D6900E109EA /* TodoListTableViewController.swift */,
 			);
 			path = "Todo-App";
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3239E8DB1B0ECF2900E109EA /* AppDelegate.swift in Sources */,
+				3239E9291B107D6900E109EA /* TodoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
