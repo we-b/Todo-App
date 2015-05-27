@@ -9,6 +9,7 @@
 import UIKit
 
 class TodoListTableViewController: UITableViewController {
+    let todoCollection = TodoCollection()
 
     override func viewDidLoad() {
         super.viewDidLoad()
