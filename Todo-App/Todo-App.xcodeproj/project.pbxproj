@@ -77,12 +77,14 @@
 		3239E8D71B0ECF2900E109EA /* Todo-App */ = {
 			isa = PBXGroup;
 			children = (
+				3239E92E1B15775500E109EA /* Controller */,
+				3239E92D1B15774F00E109EA /* View */,
+				3239E92B1B15757300E109EA /* Model */,
 				3239E8DA1B0ECF2900E109EA /* AppDelegate.swift */,
 				3239E8DE1B0ECF2900E109EA /* Main.storyboard */,
 				3239E8E11B0ECF2900E109EA /* Images.xcassets */,
 				3239E8E31B0ECF2900E109EA /* LaunchScreen.xib */,
 				3239E8D81B0ECF2900E109EA /* Supporting Files */,
-				3239E9281B107D6900E109EA /* TodoListTableViewController.swift */,
 			);
 			path = "Todo-App";
 			sourceTree = "<group>";
@@ -110,6 +112,28 @@
 				3239E8EF1B0ECF2900E109EA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3239E92B1B15757300E109EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3239E92D1B15774F00E109EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3239E92E1B15775500E109EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3239E9281B107D6900E109EA /* TodoListTableViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
